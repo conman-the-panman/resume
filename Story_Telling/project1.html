@@ -4025,7 +4025,7 @@ vertical-align: -.125em;
 <span class="menu-text">My Resume</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cleansing.html"> 
+    <a class="nav-link" href="../cleansing.qmd"> 
 <span class="menu-text">Data Cleansing</span></a>
   </li>  
   <li class="nav-item">
@@ -4033,19 +4033,19 @@ vertical-align: -.125em;
 <span class="menu-text">Data Exploration</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../story_telling.html" aria-current="page"> 
+    <a class="nav-link active" href="../story_telling.qmd" aria-current="page"> 
 <span class="menu-text">Story Telling</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ml.html"> 
+    <a class="nav-link" href="../ml.qmd"> 
 <span class="menu-text">Machine Learning</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../full_stack.html"> 
+    <a class="nav-link" href="../full_stack.qmd"> 
 <span class="menu-text">Full Stack</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../competition.html"> 
+    <a class="nav-link" href="../competition.qmd"> 
 <span class="menu-text">Competitions</span></a>
   </li>  
 </ul>
@@ -4097,7 +4097,7 @@ vertical-align: -.125em;
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../story_telling.html" class="sidebar-item-text sidebar-link">
+  <a href="../story_telling.qmd" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Story Telling</span></a>
   </div>
 </li>
@@ -4288,7 +4288,7 @@ vertical-align: -.125em;
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/conman-the-panman\.github\.io\/resume\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
