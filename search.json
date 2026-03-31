@@ -4,55 +4,35 @@
     "href": "Story_Telling/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 3"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Story_Telling/project1.html",
     "href": "Story_Telling/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Machine_Learning/project3.html",
     "href": "Machine_Learning/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 3"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Machine_Learning/project1.html",
     "href": "Machine_Learning/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Full_Stack/project2.html",
     "href": "Full_Stack/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 2"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "exploration.html",
@@ -79,33 +59,21 @@
     "href": "Competition/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competitions",
-      "Project 2"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Cleansing_Projects/project3.html",
     "href": "Cleansing_Projects/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 3"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Cleansing_Projects/project1.html",
     "href": "Cleansing_Projects/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Cleansing_Exploration/project2.html",
@@ -123,7 +91,51 @@
     "href": "Cleansing_Exploration/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
+    "text": "Show the code\nf0 &lt;- function(x, a) {a+(x*0)}\nf1 &lt;- function(x, a, b) {a+b*x}\nf2 &lt;- function(x, a, b, c) {a+b*x+c*x^2}\nf3 &lt;- function(x, a, b, c) {a+b*exp(-c*x)}\nf4 &lt;- function(x, a, b, c) {a+b*x+c*log(0.005*x+1, exp(1))}\nf5 &lt;- function(x, a, b, c) {(a+b*x)*exp(-c*x)}\nShow the code\nlibrary(data4led)\nbulb &lt;- led_bulb(1,seed=9584)\n\nt &lt;- bulb$hours\ny1 &lt;- bulb$percent_intensity\n\nx &lt;- seq(0, 5000)\nx2 &lt;- seq(0, 80000)",
+    "crumbs": [
+      "Data Exploration",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html#how-long-does-an-led-light-bulb-last",
+    "href": "Cleansing_Exploration/project1.html#how-long-does-an-led-light-bulb-last",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "“How long does an LED light bulb last?”",
+    "text": "“How long does an LED light bulb last?”\n\nLED bulbs are an enormous upgrade from standard fluorescent light bulbs lasting hundreds if not thousands more hours. This project is to answer the question “How long does an LED light bulb last?” using different models to estimate future data.\n\n\nThe data given is various different LED bulbs measured for intensity for the span of 5 thousand hours (208 days). They measured this data by turning on different LEDs and leaving them turned on. The intensity of the bulb can be compared to how bright it shines. However, because LEDs can last for years, this project contains models that can be used to measure the bulbs in the future without having to wait years.\n\n\nPlot of the Data\n\n\nShow the code\npar(mar=c(5, 5, 0, 2))\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\n\n\n\n\n\n\n\n\n\n\nThis is the data describes on a scatter plot. With the percent intensity as the ‘y’ and time measured in hours as the ‘x’. It’s important to note that most bulbs upon the first moments of being turned on go above 100% intensity.",
+    "crumbs": [
+      "Data Exploration",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html#modeling-the-data",
+    "href": "Cleansing_Exploration/project1.html#modeling-the-data",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Modeling the Data",
+    "text": "Modeling the Data\n\nThe point of this project is to create a model that maps the data with the best fit…However, since we don’t exactly know the kind of data that would appear beyond 5 thousand hours, we can’t conclude that one model is better than another. So in this project, there will be 6 different models to fit the data with a close up view and a larger view for scale.\n\n\nWhen picking a model or finding a good model, it’s important to understand the context, relationship, and shape of the data. Is the shape linear, quadratic, cubic, random?? Is the relationship positive, negative, no strong correlation?? Where are we getting this data, what is the realistic application. This information can give us any hints on how the model should appear. For example, this data we can assume will have a negative slope because the bulbs will only decrease in intensity after the first 5 thousand hours. The shape is quite interesting, having an early bend in the data, followed by it flatting out.\n\n\nfunction 0\n\n(f_{0}(x) = a_{0})\n\n\nParameters: (a_{0}=100)\n\n\nThis model is a straight horizontal line passing through the point (0, 100). For this data, this model wouldn’t be the best fit because the data isn’t uniform. The line doesn’t pass through any other points at all on the graph. The only variable set would be ‘a’ at 100.\n\n\nIt is inconsistent with the data. And would only be relevant if the an LED bulb had constant intensity.\n\n\n\nShow the code\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nabline(h=100, col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nabline(h=100, col=\"red\")\n\n\n\n\n\n\n\n\n\n\n\nfunction 1\n\n(f_{1}(x) = a_{0} + a_{1}x)\n\n\nParameters: (a_{0}=100, a_{1}=0.0005)\n\n\nThis model is another straight line, however the slope is able to be modified. The line crosses through a few more points, however, this still isn’t a very good model because it doesn’t follow the path of the dots well at all. So it seems that this function can’t be modeled with a linear relationship.\n\n\nBecause the relationship is positive, it wouldn’t map any future points well, considering the intensity would only fall.\n\n\n\nShow the code\nf1 &lt;- function(x, a, b) {a+b*x}\n\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nlines(x, f1(x, 100, 0.0005), col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x2, f1(x2, 100, 0.0005), col=\"red\")\n\n\n\n\n\n\n\n\n\n\n\nfunction 2\n\n(f_{2}(x) = a_{0} + a_{1}x + a_{2}x^{2})\n\n\nParameters: (a_{0}=100, a_{1}=0.0008, a_{2}=-0.0000001 )\n\n\nThis model is a quadratic that fits most of the points so far. This isn’t a bad model because it starts to follow the direction of possible future points. However, in the scaled up graph it’s hard to believe that the graph would decrease that drastically. At the start however, the line follows the points very well.\n\n\nThis model would maybe be the case for incandescent light bulbs that don’t last nearly as long.\n\n\n\nShow the code\nf2 &lt;- function(x, a, b, c) {a+b*x+c*x^2}\n\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nlines(x, f2(x, 100, 0.0008, -0.0000001), col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x2, f2(x2, 100, 0.0008, -0.0000001), col=\"red\")\n\n\n\n\n\n\n\n\n\n\n\nfunction 3\n\n(f_{3}(x) = a_{0} + a_{1} e^{-a_{2} x})\n\n\nParameters: (a_{0}=102, a_{1}=-2, a_{2}=0.0005)\n\n\nThis model is a little funky because it curves up for the first couple thousand data points, but after 5000 it really starts to flatten out. The lines very passed through 102 after that point, which is the (a_{0}) value. I don’t think this would be a good fit for the bulb data if that’s the case.\n\n\nThis model would be a good fit if LED bulbs never went out.\n\n\n\nShow the code\nf3 &lt;- function(x, a, b, c) {a+b*exp(-c*x)}\n\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nlines(x, f3(x, 102, -2, 0.0005), col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x2, f3(x2, 102, -2, 0.0005), col=\"red\")\n\n\n\n\n\n\n\n\n\n\n\nfunction 4\n\n(f(x) = a_{0} + a_{1} x + a_{2} (0.005x + 1))\n\n\nParameters: (a_{0}=100, a_{1}=-0.0003, a_{2}=0.93)\n\n\nDon’t tell any of the other models this…but this one is my favorite. It lines up with the graph very nicely and is easy to believe that future points would be predicted with this model. So far this model has the best shape we’re looking for. Zoomed out, we can see this graph has a very consistent slope downwards.\n\n\nThis model has a steady movement down, so it would be good to predict longer lasting bulbs.\n\n\n\nShow the code\nf4 &lt;- function(x, a, b, c) {a+b*x+c*log(0.005*x+1, exp(1))}\n\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nlines(x, f4(x, 100, -0.0003, 0.93), col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x2, f4(x2, 100, -0.0003, 0.93), col=\"red\")\n\n\n\n\n\n\n\n\n\n\n\nfunction 5\n\n(f_{5}(x) = (a_{0} + a_{1}x) e^{-a_{2}x})\n\n\nParameters: (a_{0}=100, a_{1}=0.0031, a_{2}=0.000025)\n\n\nLastly this model is very accurate to the data we have. This is probably the most accurate because it passes through the most points. It doesn’t have very many sharp increases or decreases. In the scaled up graph it soothes out in the later half. The zoomed in part might not seem very accurate at first, however, the zoomed out portion has the most realistic case for the model I think.\n\n\nThis model has a smooth decline and the zoomed in graph shows that the graph travels through many points. This could be a good fit for realistically finding the lifespan of an LED bulb.\n\n\n\nShow the code\nf5 &lt;- function(x, a, b, c) {(a+b*x)*exp(-c*x)}\n\npar(mfrow=c(1,2),mar=c(2,2,3,0.25),oma=rep(0.5,4))\n\nplot(t,y1,xlab=\"Hour\", ylab=\"Intensity(%) \", pch=16)\nlines(x, f5(x, 100, 0.0031, 0.000025), col=\"red\")\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x2, f5(x2, 100, 0.0031, 0.000025), col=\"red\")",
+    "crumbs": [
+      "Data Exploration",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html#apply-the-models",
+    "href": "Cleansing_Exploration/project1.html#apply-the-models",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Apply the Models",
+    "text": "Apply the Models\n\nTo make the models easier to understand the application, it’s time to put them to the test. These graphs show which model can measure the LED bulb at 80% intensity. To get this number, you set the function equal to 80 and solve for ‘x’ to see when the model crosses 80 on the ‘y’ axis.\n\n\nfunction 0\n\nThis code would not work because the line never crosses 80 on the x-axis. Further proving that this function isn’t a good fit for the data at a=100.\n\n\n\nShow the code\ng0 &lt;- function(x) {f0(x, 100)-80}\ninterval &lt;- c(-1000, 1000)\n#my_root &lt;- uniroot(g0, interval)$root\n\n\n\n\nfunction 1\n\nWe do actually get a result because the model crosses the 80 on the x-axis, but in the negative direction. This code returns that it makes it to 80 when x=-40000, so it’s not realistic.\n\n\n\nShow the code\ng1 &lt;- function(x) {f1(x, 100, 0.0005)-80}\ninterval &lt;- c(-40000, 0)\nmy_root &lt;- uniroot(g1, interval)$root\n\nx &lt;- seq(-80000, 0)\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(-80000,0),ylim=c(-10, 120))\nlines(x, f1(x, 100, 0.0005), col=\"red\")\npoints(-40000, 80, col=\"blue\", pch=4, cex=2)\n\n\n\n\n\n\n\n\n\n\n\nfunction 2\n\nThis model gives us our first realistic value at 18,696.94 hours to get 80% of the bulbs original intensity. That would be roughly 2 years of the light bulb turned on.\n\n\n\nShow the code\ng2 &lt;- function(x) {f2(x, 100, 0.0008, -0.0000001)-80}\ninterval &lt;- c(-10, 20000)\nmy_root &lt;- uniroot(g2, interval)$root\n\nx &lt;- seq(0, 80000)\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x, f2(x, 100, 0.0008, -0.0000001), col=\"red\")\npoints(18696.94, 80, col=\"blue\", pch=4, cex=2)\n\n\n\n\n\n\n\n\n\n\n\nfunction 3\n\nThis function does a great job modeling the first few x values for the model. But there’s an asymptote at the (a_{2}) value of 102, it doesn’t ever cross 80 on the x-axis.This code will give you and error even if you set the range to 2 trillion in each direction.\n\n\n\nShow the code\ng3 &lt;- function(x) {f3(x, 102, -2, 0.0005)-80}\ninterval &lt;- c(-10, 10000)\n#my_root &lt;- uniroot(g3, interval)$root\n\n\n\n\nfunction 4\n\nThis model produced an answer that at 85,451.82 hours the bulb will be at 80% intensity since it being turned on. This is roughly 9 years and 8 months of the bulb being lit, nearly 5 times the amount of time than the function 2.\n\n\n\nShow the code\ng4 &lt;- function(x) {f4(x, 100, -0.0003, 0.93)-80}\ninterval &lt;- c(-10, 100000)\nmy_root &lt;- uniroot(g4, interval)$root\n\nx &lt;- seq(0, 90000)\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,90000),ylim=c(-10, 120))\nlines(x, f4(x, 100, -0.0003, 0.93), col=\"red\")\npoints(85451.82, 80, col=\"blue\", pch=4, cex=2)\n\n\n\n\n\n\n\n\n\n\n\nfunction 5\n\nThis model gave us an answer of 42,597.36 hours when the bulb is at 80% intensity. About 4 years and 10 months. This functions nearly lies in the middle of function 2 and function 4, being a very reasonable and believable model.\n\n\n\nShow the code\ng5 &lt;- function(x) {f5(x, 100, 0.0031, 0.000025)-80}\ninterval &lt;- c(-10, 100000)\nmy_root &lt;- uniroot(g5, interval)$root\n\nx &lt;- seq(0, 80000)\nplot(t, y1,xlab=\"Hour\", ylab=\"Intensity(%)\", pch=16,xlim=c(0,80000),ylim=c(-10, 120))\nlines(x, f5(x, 100, 0.0031, 0.000025), col=\"red\")\npoints(42597.36, 80, col=\"blue\", pch=4, cex=2)",
+    "crumbs": [
+      "Data Exploration",
+      "Project 1"
+    ]
+  },
+  {
+    "objectID": "Cleansing_Exploration/project1.html#conclusion",
+    "href": "Cleansing_Exploration/project1.html#conclusion",
+    "title": "Client Report - [Insert Project Title]",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nDuring this project I learned a great deal about the R programming language and the power of certain functions to provide desired results. The “uniroot” function was a huge help in this project to help me solve equations I couldn’t solve with pure algebra. It’s very simple to describe the data using R with different types of plots for various kinds of data types. I learned how to use the “plot” function to support the different models. This might sound silly, but I learned that there are limits to algebra where you can’t isolate x (as far as I know algebra). I will continue to use approximations from software where algebra can’t be used.\nA soft skill that I learned (and still need to improve) in this project were time management. I was very slow in getting this project done, however, I made sure to do it right and not cut corners. I do understand that AI would have been useful for this project, but I like going through the learning process to help me understand deeper.",
     "crumbs": [
       "Data Exploration",
       "Project 1"
@@ -145,44 +157,28 @@
     "href": "Cleansing_Projects/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Data Cleansing",
-      "Project 2"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Competition/project1.html",
     "href": "Competition/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competitions",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Competition/project3.html",
     "href": "Competition/project3.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Competitions",
-      "Project 3"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Full_Stack/project1.html",
     "href": "Full_Stack/project1.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Full Stack",
-      "Project 1"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
@@ -203,11 +199,7 @@
     "href": "Machine_Learning/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Machine Learning",
-      "Project 2"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   },
   {
     "objectID": "resume.html",
@@ -235,10 +227,6 @@
     "href": "Story_Telling/project2.html",
     "title": "Client Report - [Insert Project Title]",
     "section": "",
-    "text": "Paste in a template\n\n\n\n\n Back to top",
-    "crumbs": [
-      "Story Telling",
-      "Project 2"
-    ]
+    "text": "Paste in a template\n\n\n\n\n Back to top"
   }
 ]
